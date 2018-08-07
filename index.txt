@@ -208,7 +208,7 @@
     </script>
 
 <div style="text-align:center;">
-<p>来源：<a href="www.baidu.com" title="万能的傻逼网友" target="_blank">傻逼网友</a></p>
+<p>来源：<a href="www.baidu.com" title="万能的傻逼网友" target="_blank">莫斯科内务部委员会</a></p>
 </div>
 
 </body>
