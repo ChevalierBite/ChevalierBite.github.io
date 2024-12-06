@@ -20,6 +20,20 @@
     enable_page_level_ads: true
     });
     </script>
+        <style>
+        /* 新增样式 */
+        #emoji-container {
+            position: absolute;
+            top: 10px; /* 距顶部距离 */
+            right: 10px; /* 距右侧距离 */
+            width: 100px; /* 图片宽度 */
+            height: auto; /* 保持宽高比 */
+        }
+        #emoji-container img {
+            width: 100%; /* 让图片占满容器宽度 */
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <audio autoplay="autopaly">
@@ -53,8 +67,8 @@
             </div>
             <div id="clock-box">
                 <span class="STYLE1"></span>
-                <font color="orange">MyDear, I like you </font>
-                <span class="STYLE1">already……</span>
+                <font color="orange">汉堡王, 已持续在线 </font>
+                <span class="STYLE1">为</span>
                 <div id="clock"></div>
             </div>
             <canvas id="canvas" width="1100" height="680"></canvas>
@@ -209,6 +223,11 @@
     </script>
     <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
         <p>汉堡王</p>
+    </div>
+     <div id="emoji-container">
+        <a href="https://smms.app/image/CekU2vaIqMj4z3O" target="_blank">
+            <img src="https://s2.loli.net/2024/12/06/CekU2vaIqMj4z3O.png" alt="表情包">
+        </a>
     </div>
 </body>
 </html>
